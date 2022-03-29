@@ -1,10 +1,10 @@
 {
   "private": true,
-  "homepage":"https://yash91989201.github.io/mediumclone",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "@babel/core": "^7.17.8",
