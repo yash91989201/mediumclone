@@ -2,11 +2,11 @@ import Link from "next/link"
 
 const Header = () => {
   return (
-    <header className="p-4 flex items-center justify-between mx-auto" style={{width:"min(80rem,100%)"}}>
+    <header className="p-4 flex flex-wrap items-center justify-between" >
         <div className="flex flex-row">
             <Link href="/">
                <img 
-                    className="w-44 object-contain cusor-pointer"
+                    className="w-44 object-contain cursor-pointer"
                     src="https://links.papareact.com/yvf" 
                     alt="medium logo" 
                 />

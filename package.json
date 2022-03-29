@@ -1,15 +1,25 @@
 {
   "private": true,
+  "homepage":"https://yash91989201.github.io/mediumclone",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@mui/icons-material": "^5.5.1",
+    "@sanity/client": "^3.3.0",
+    "@sanity/image-url": "^1.0.1",
     "next": "latest",
+    "next-sanity": "^0.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1"
+    "react-hook-form": "^7.28.1",
+    "react-icons": "^4.3.1",
+    "react-portable-text": "^0.4.3"
   },
   "devDependencies": {
     "@types/node": "17.0.4",
